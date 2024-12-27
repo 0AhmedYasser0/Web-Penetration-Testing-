@@ -4,9 +4,12 @@ Penetration testing exercise conducted on the OWASP Juice Shop. The objective wa
 Web Penetration Testing Report
 Executive Summary
 This report outlines the findings of a penetration testing exercise conducted on the OWASP Juice Shop. The objective was to identify and exploit common web vulnerabilities to understand their impact and remediation strategies. Key findings include successful exploitation of an admin path, brute-force password cracking, and a Cross-Site Scripting (XSS) vulnerability. These findings highlight the importance of robust security measures such as input validation, rate limiting, and secure authentication mechanisms.
+
 Scope and Methodology
 •	Scope: The scope of this assessment included the Juice Shop website, its APIs, and any accessible applications.
+
 •	Approach: A black-box testing approach was adopted, simulating an external attacker with limited prior knowledge of the application.
+
 •	Tools Used: 
 o	Kali Linux
 o	Burp Suite
